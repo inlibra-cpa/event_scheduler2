@@ -1,2 +1,2 @@
 default_event_duration: 60 # Duration in minutes
-reminder_lead_time: 30 # Lead time in minutes before the event starts to send a reminder
+reminder_lead_time: 10 # Lead time in minutes before the event starts to send a reminder
