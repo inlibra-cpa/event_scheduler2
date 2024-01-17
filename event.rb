@@ -6,6 +6,9 @@ class Event
     @date = date
     @description = description
   end
-    # The place to add any additional methods we may need
+
+  def to_h
+    { 'title' => @title, 'date' => @date, 'description' => @description }
+  end
 end
   

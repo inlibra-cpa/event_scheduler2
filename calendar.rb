@@ -2,6 +2,8 @@ require 'json'
 require_relative 'event'
 
 class Calendar
+  attr_reader :events
+  
   def initialize
     @events = []
   end
